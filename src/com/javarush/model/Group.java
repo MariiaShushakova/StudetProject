@@ -36,4 +36,12 @@ public class Group {
     public int hashCode() {
         return Objects.hash(getGroupName(), getStudentList());
     }
+
+    @Override
+    public String toString() {
+        return "Group{" +
+                "groupName='" + groupName + '\'' +
+                ", studentList=" + studentList +
+                '}';
+    }
 }

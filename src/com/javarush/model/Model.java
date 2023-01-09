@@ -116,4 +116,8 @@ public class Model {
         }
         return false;
     }
+
+    public List<Group> getGroups(){
+        return groups;
+    }
 }

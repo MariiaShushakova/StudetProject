@@ -26,4 +26,11 @@ public final class Subject {
     public int hashCode() {
         return Objects.hash(name);
     }
+
+    @Override
+    public String toString() {
+        return "Subject{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

@@ -22,4 +22,12 @@ public class Student {
     public void setSubjectMarkMap(Map<Subject, Integer> subjectMarkMap) {
         this.subjectMarkMap = subjectMarkMap;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentName='" + studentName + '\'' +
+                ", subjectMarkMap=" + subjectMarkMap +
+                '}';
+    }
 }
